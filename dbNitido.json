@@ -1,0 +1,42 @@
+{
+    "cliente": [
+        {
+            "nombre": "Prana",
+            "duenio": "Patricia Del Valle",
+            "direccion": "Lomas de Tafi",
+            "id": 1
+        },
+        {
+            "nombre": "EFE",
+            "duenio": "Maximiliano Collante",
+            "direccion": "Lomas de Tafi",
+            "id": 2
+        }
+    ],
+
+    "inventario":[
+        {
+            "producto": "Agenda A5",
+            "cantidad": 10,
+            "precio": 2500,
+            "id": 1
+        },
+        {
+            "producto": "Folletos",
+            "cantidad": 1000,
+            "precio": 15,
+            "id": 2
+        }
+    ],
+
+    "venta":[
+        {
+            "idCliente": 1,
+            "idInventario": 2,
+            "cantVenta": 100,
+            "totalVenta": 1500,
+            "id": 1
+        }
+    ]
+
+}

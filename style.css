@@ -1,0 +1,120 @@
+.contenedor-principal{
+  background-color: rgb(198, 225, 235);
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: solid 10px black;
+    
+}
+
+header{
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px 15px 8px 20px;
+  align-items: center;
+  justify-content: space-between; 
+}
+  
+.fil{
+  display: flex;
+  overflow: hidden;
+}
+
+#logo{
+  height: 300px;
+  width: 350px;
+  margin-left: 100px;
+}
+#portada{
+  height: 280px;
+  width: 620px;
+  margin-right: 100px;
+}
+/*menu?*/
+h1{
+  text-align: center;
+}
+
+#lista{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5px;
+  background-color: rgb(135, 179, 195);
+  border-radius: 10px;
+  padding: 8px 15px 8px 20px;
+}
+#lista li{
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  padding: 5px 10px;
+  overflow: hidden;
+  margin-inline: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+#lista li:hover{
+  background: #a8d8f8;
+  transition: 0.3s;
+  transform: rotate(360deg);
+  border-radius: 10px; 
+}
+
+.contenedor-cliente,.contenedor-inventario,.contenedor-venta{
+  border: solid black 5px;
+  margin-top: 5px;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.cli,.inv,.ven{
+  margin: 40px;
+}
+
+#lisCli{
+  background-color: rgb(213, 245, 240);
+  width: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  border: solid rgb(106, 205, 223,05);
+  text-align: center;
+  border-radius: 10px;
+  opacity: 0.7;
+  backdrop-filter: blur(20px);
+}
+#lisPro{
+  background-color: rgb(213, 245, 240);
+  width: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  border: solid rgb(106, 205, 223,05);
+  text-align: center;
+  border-radius: 10px;
+  opacity: 0.7;
+  backdrop-filter: blur(20px);
+} 
+#lisVen{
+  background-color: rgb(213, 245, 240);
+  width: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  border: solid rgb(106, 205, 223,05);
+  text-align: center;
+  border-radius: 10px;
+  opacity: 0.7;
+  backdrop-filter: blur(20px);
+}
+
+.redes img{
+  width: 100px;
+  height: 100px;
+}
+
+input{
+  width: 150px;
+}

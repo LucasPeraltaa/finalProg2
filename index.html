@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitido Impresiones</title>
+
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+
+        <header>
+            <div class="fil">
+                <div class="col">
+                   <img src="./img/LOGOPNG.png" alt="" id="logo"> 
+            
+                </div>
+                <div class="col">
+                    <img src="./img/PORTADA.png" alt="" id="portada">
+            
+                </div>
+            </div>
+            <div class="menu">
+                <ul id="lista">
+                    <li><a href="#dcliente">CLIENTES</a></li>
+                    <li><a href="#dinventario">LIBROS</a></li>
+                    <li><a href="#dventa">PRESTAMOS</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="contenedor-cliente" id="dcliente">
+
+                <h1>CLIENTES</h1>
+
+                <input class="cli" type="text" id="cliNombre" placeholder="Nombre">
+                <input class="cli" type="text" id="cliDuenio" placeholder="Dueño">
+                <input class="cli" type="text" id="cliDireccion" placeholder="Direccion">
+
+                <button id="addCli" onclick=""> <!--save-->
+                    <img src="./img/SAVE-ICON.png" alt="btnSave" style="height: 20px; width: 20px;">
+                </button>
+                <button id="updCli" onclick=""> <!--update-->
+                    <img src="./img/REFRESH-ICON.png" alt="btnUpdate" style="height: 20px; width: 20px;">
+                </button>
+
+                <hr>
+                <div id="lisCli"></div>
+            </div>
+
+            <div class="contenedor-inventario" id="dinventario">
+
+                <h1>INVENTARIO</h1>
+
+                <input class="inv" type="text" id="invProducto" placeholder="Producto">
+                <input class="inv" type="text" id="invCantidad" placeholder="Cantidad">
+                <input class="inv" type="text" id="invPrecio" placeholder="Precio">
+
+
+                <button id="addPro" onclick=""> <!--save-->
+                    <img src="./img/SAVE-ICON.png" alt="btnSave" style="height: 20px; width: 20px;">
+                </button>
+                <button id="updPro" onclick=""> <!--update-->
+                    <img src="./img/REFRESH-ICON.png" alt="btnUpdate" style="height: 20px; width: 20px;">
+                </button>
+
+                <hr>
+                <div id="lisPro"></div>
+            </div>
+
+            <div class="contenedor-venta" id="dventa">
+
+                <h1>VENTAS</h1>
+
+                <input class="ven" type="text" id="venCliente" placeholder="ID Cliente">
+                <input class="ven" type="text" id="venProducto" placeholder="ID Producto">
+                <input class="ven" type="text" id="venCantidad" placeholder="Cantidad">
+                <input class="ven" type="text" id="venTotal" placeholder="Total" >
+                
+
+                <button id="addPro" onclick=""> <!--save-->
+                    <img src="./img/SELL-ICON.png" alt="btnSave" style="height: 20px; width: 20px;">
+                </button>
+
+                <hr>
+                <div id="lisVen"></div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="redes">
+                <img src="./img/INSTA-ICON.png" alt="btnInsta" style="height: 20px; width: 20px;">
+                <img src="./img/WHATSAPP-ICON.png" alt="btnWsp" style="height: 20px; width: 20px;">
+            </div>
+            <div class="info">
+                <h6>Todos los derechos reservados Nitido Impresiones</h6>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
