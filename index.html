@@ -42,10 +42,10 @@
                 <input class="cli" type="text" id="cliDuenio" placeholder="Dueño">
                 <input class="cli" type="text" id="cliDireccion" placeholder="Direccion">
 
-                <button id="addCli" onclick=""> <!--save-->
+                <button id="addCli" onclick="guardar2()"> <!--save-->
                     <img src="./img/SAVE-ICON.png" alt="btnSave" style="height: 20px; width: 20px;">
                 </button>
-                <button id="updCli" onclick=""> <!--update-->
+                <button id="updCli" onclick="actualizar2()"> <!--update-->
                     <img src="./img/REFRESH-ICON.png" alt="btnUpdate" style="height: 20px; width: 20px;">
                 </button>
 
@@ -65,12 +65,14 @@
                 <button id="addPro" onclick="guardar()"> <!--save-->
                     <img src="./img/SAVE-ICON.png" alt="btnSave" style="height: 20px; width: 20px;">
                 </button>
-                <button id="updPro" onclick="actualizar()"> <!--update-->
+                <button id="updPro" onclick="actualizar()" hidden> <!--update-->
                     <img src="./img/REFRESH-ICON.png" alt="btnUpdate" style="height: 20px; width: 20px;">
                 </button>
 
                 <hr>
-                <div id="lisInv"></div>
+                <div id="lisInv">
+
+                </div>
             </div>
 
             <div class="contenedor-venta" id="dventa">
